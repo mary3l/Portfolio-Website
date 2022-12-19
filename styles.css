@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+#header-container{
+    width:100%;
+    height: 650px;
+}
+#quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+    font-size: 30px;
+}
+.Quote{
+    font-weight:lighter;
+    color: white;
+}
+.bold{
+    color:#FF526A;
+    font-weight: bold;
+}
+#author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Author{
+    font-size:xx-large;
+    font-weight:200;
+    color: white;
+}
+.button-container{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.buttons{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.tag{
+    font-size: 35px;
+    -webkit-text-stroke: 0.9px white;
+    color:#282828;
+    padding: 6px 50px;
+    border-radius:50px;
+    font-weight: bolder;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+.tag:hover{
+    background-color: #FF526e;
+    color:#FF526A;
+    top: -5px;
+}
+.footer-container{
+    height: 150px;
+    width: 100%;
+}
+.contents{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+.name{
+    font-weight: bold;
+}
+.others{
+    font-weight: lighter;
+}
+img{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+img:hover {
+    top: -5px;
+  } 
+
